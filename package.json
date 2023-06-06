@@ -2,6 +2,14 @@
     "name": "@rooster-inc/helpers",
     "version": "0.1.0",
     "description": "Biblioteca de Helpers gerais.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roosterinc011/helpers"
+    },
+    "bugs": {
+        "url": "https://github.com/roosterinc011/helpers/issues"
+    },
+    "license": "MIT",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
