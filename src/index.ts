@@ -1,1 +1,1 @@
-export { formatarCpf, mascaraCpf } from './cpf'
+export { formatarCpf, mascaraCpf } from './cpf/cpf'
