@@ -1,0 +1,1 @@
+export { formatarCpf, mascaraCpf } from './cpf'
