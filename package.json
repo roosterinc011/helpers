@@ -1,24 +1,26 @@
 {
-    "name": "@rooster-inc/helpers",
-    "version": "0.1.1",
-    "description": "Biblioteca de Helpers gerais.",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/roosterinc011/helpers"
-    },
-    "bugs": {
-        "url": "https://github.com/roosterinc011/helpers/issues"
-    },
-    "license": "MIT",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc"
-    },
-    "files": [
-        "/dist"
-    ],
-    "devDependencies": {
-        "typescript": "^5.1.3"
-    }
+  "name": "@rooster-inc/helpers",
+  "version": "0.1.1",
+  "description": "Biblioteca de Helpers gerais.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roosterinc011/helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roosterinc011/helpers/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "homepage": "https://github.com/roosterinc011/helpers#readme",
+  "author": ""
 }
