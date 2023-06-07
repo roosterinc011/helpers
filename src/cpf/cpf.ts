@@ -3,5 +3,5 @@ export function mascaraCpf(cpf: string) {
 }
 
 export function formatarCpf(cpf: string) {
-    return cpf.replace(/D/g, '').substring(0, 11).padStart(11, '0');
+    return cpf.replace(/\D/g, '').substring(0, 11).padStart(11, '0');
 }
