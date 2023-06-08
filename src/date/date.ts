@@ -1,5 +1,8 @@
-export function dataBrasileira(date: Date, options: Intl.DateTimeFormatOptions = { timeZone: "UTC" } ) {
-    return Intl.DateTimeFormat('pt-BR', options).format(date);
+export function dataBrasileira(
+    date: Date,
+    options: Intl.DateTimeFormatOptions = { timeZone: "UTC" }
+) {
+    return Intl.DateTimeFormat("pt-BR", options).format(date);
 }
 
 export function stringParaData(str: string) {
@@ -13,7 +16,9 @@ export function stringParaData(str: string) {
         return new Date(`${ano}-${mes}-${dia}z`);
     }
 
-    throw new Error(`${str} fora da formatação de data, Insira uma data válida.`);
+    throw new Error(
+        `${str} fora da formatação de data, Insira uma data válida.`
+    );
 }
 
 export function isDataBrasileira(str: string) {

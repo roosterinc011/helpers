@@ -1,3 +1,8 @@
-export { formatarCpf, mascaraCpf } from './cpf/cpf'
+export { formatarCpf, mascaraCpf } from "./cpf/cpf";
 
-export { dataBrasileira, isDataBrasileira, isDataIso, stringParaData } from "./date/date";
+export {
+    dataBrasileira,
+    isDataBrasileira,
+    isDataIso,
+    stringParaData,
+} from "./date/date";
