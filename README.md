@@ -82,6 +82,8 @@ const cpf = mascaraCpf("12345678901"); // 123.4567.89-01
 
 #### Formatar para Data Brasileira
 
+Função para formatar a data para dd/mm/YYYY
+
 ```ts
 import { dataBrasileira } from "@rooster-inc/helpers";
 
@@ -92,25 +94,31 @@ const formatada = dataBrasileira(data); // 05/05/2023
 
 #### Verificação de Data Brasileira
 
+Função para verificar se a data é dd/mm/YYYY
+
 ```ts
 import { isDataBrasileira } from "@rooster-inc/helpers";
 
 isDataBrasileira("2023-05-05"); // false
 
-isDataBrasileira("05/05/2023") // true
+isDataBrasileira("05/05/2023"); // true
 ```
 
 #### Verificação de Data ISO
+
+verifica se a data é YYYY-mm-dd
 
 ```ts
 import { isDataIso } from "@rooster-inc/helpers";
 
 isDataIso("2023-05-05"); // true
 
-isDataIso("05/05/2023") // false
+isDataIso("05/05/2023"); // false
 ```
 
 #### String para Data
+
+converte string de data YYYY-mm-dd ou dd/mm/YYYY para Date
 
 ```ts
 import { stringParaData } from "@rooster-inc/helpers";
