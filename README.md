@@ -4,14 +4,14 @@ Biblioteca Para Helpers Gerais
 
 ## Tabela de Conteúdos
 
-- [Helpers](#helpers)
-  - [Tabela de Conteúdos](#tabela-de-conteúdos)
-  - [Instalação](#instalação)
-  - [Uso Básico](#uso-básico)
-  - [Recursos](#recursos)
-    - [CPF](#cpf)
-      - [Formatar CPF](#formatar-cpf)
-      - [Mascarar CPF](#mascarar-cpf)
+-   [Helpers](#helpers)
+    -   [Tabela de Conteúdos](#tabela-de-conteúdos)
+    -   [Instalação](#instalação)
+    -   [Uso Básico](#uso-básico)
+    -   [Recursos](#recursos)
+        -   [CPF](#cpf)
+            -   [Formatar CPF](#formatar-cpf)
+            -   [Mascarar CPF](#mascarar-cpf)
 
 ## Instalação
 
