@@ -4,7 +4,6 @@ describe('Testes de Data', () => {
     let date: Date;
     let strBr: string;
     let strIso: string;
-    let strRandom: string;
 
     beforeAll(() => {
         date = new Date("2021-12-31");
@@ -12,8 +11,6 @@ describe('Testes de Data', () => {
         strBr = "10/12/2023";
 
         strIso = "2023-07-23";
-
-        strRandom = "123321123123";
     })
     test('should format Data Brasileira', () => { 
         expect(dataBrasileira(date)).toBe("31/12/2021");

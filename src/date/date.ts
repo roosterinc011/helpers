@@ -22,6 +22,6 @@ export function isDataBrasileira(str: string) {
 }
 
 export function isDataIso(str: string) {
-    const iso = /^\d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$/;
+    const iso = /^\d{4}-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])$/;
     return iso.test(str);
 }
